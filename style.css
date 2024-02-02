@@ -1,0 +1,245 @@
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        color: white;
+    }
+   body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   }
+   nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    padding-top:15px;
+   }
+   li{
+        display: inline;
+        padding-left: 40px;
+
+   }
+   li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding-bottom:8px;
+   }
+ #logo{
+    color:aliceblue;
+    float: right;
+}
+a:hover{
+    border-bottom:2px solid aliceblue;
+}
+/* Nav ends */
+
+.head{
+    background:url(mainbg.png);
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family:serif;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    text-align: center;
+}
+#M-H{
+    position: absolute;
+    top:7rem;
+    font-size:4rem;
+   
+}
+#P-H{
+    position: absolute;
+    bottom:4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom:-40px;
+}
+#m-btn{
+    position:absolute;
+    bottom:2rem;
+    padding:10px 30px;
+    margin-top:20px;
+    background: transparent;
+    background: #cabb15;
+    color:aliceblue;
+    transform: translateY(60px);
+}
+
+/* our story start */
+#Our-story{
+    /* height: 100vh; */
+    margin-top:15%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+}
+.img{
+    width:560px;
+    height:400px;
+    margin-left: 310px;
+    background:url(cup-removebg.png);
+    background-position: center;
+    background-size:600px;
+    background-repeat: no-repeat;
+}
+.title-style{
+    display:flex;
+    align-items: center;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color:white;
+    transform: translateX(-100px);
+}
+.line{
+    width:100px;
+    height:2px;
+    background: white;
+    transform: translate(-120px);
+}
+.section-centent p{
+    max-width:500px;
+    color:white;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin:20px 0;
+}
+/* our story end */
+
+/* cofee start */
+.coffee-centainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px;
+}
+.content-section p{
+    max-width: 500px;
+    color:white;
+}
+.img-2{
+    width:560px;
+    height: 550px;
+}
+.title-two{
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* coffee start end */
+
+/* product */
+
+.products{
+    margin-top: 5rem;
+}
+.title-3{
+   font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    border:2px solid rgb(229, 154, 14);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.card-img{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top:-60px;
+}
+.img1{
+    background: url(prd-im1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    /* cursor: pointer;
+    animation-name:fadeIn;
+    opacity: 0;
+    animation-duration:10s;
+             /*infinite*/
+   /* animation-direction:normal; */    /*alternate for left and right both */
+    /*animation-timing-function:linear; */
+} 
+
+.img2{
+    background: url(prd-im2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.img3{
+    background: url(prd-im3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.card-title{
+        margin-top: 50px;
+        font-family: sans-serif;
+        color:white;
+}
+.card .items p{
+    color:white;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+/* product end */
+footer{
+    height:50hv;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family: sans-serif;
+}
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+footer .heading-info{
+    margin-left: 20px;
+}
+fooetr p{
+    line-height:25px ;
+}
+span{
+    color:#cabb15;
+}
+
+
+/*  */
+
